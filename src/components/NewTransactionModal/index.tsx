@@ -60,7 +60,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
             <h2>Transaction Register</h2>
 
             <input 
-                placeholder='Income'
+                placeholder='Title'
                 value={title}
                 onChange={event => setTitle(event.target.value)}
             />
